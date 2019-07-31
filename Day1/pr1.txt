@@ -1,0 +1,19 @@
+Vaibhav Sharma
+
+WAP to check the working of operators.
+
+============================================
+
+
+public class pr1 {
+
+	public static void main(String []args)
+	{
+		int a=32,x,y;
+		x=a/10;
+		y=a%10;
+		System.out.println(x);
+		System.out.println(y);
+		
+	}
+}

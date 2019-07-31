@@ -1,0 +1,37 @@
+Vaibhav Sharma
+
+Wap to print grades according to marks of student
+=======================================================
+public class student {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float marks= 78.0f;
+		
+		if(marks>=75)
+		{
+			System.out.println("FCD");
+		}
+		else if(marks>=60)
+		{
+			System.out.println("FC");
+		}
+		else if(marks>=50)
+		{
+			System.out.println("SC");
+		}
+		else if(marks>=350)
+		{
+			System.out.println("PC");
+		}
+		else 
+		{
+			System.out.println("F");
+		}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+Vaibhav Sharma
+
+WAP to check working of operators
+=====================================
+
+
+public class pr2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+			float a=42.0f,x,y;
+			x=a/10;
+			y=a%10;
+			System.out.println(x);
+			System.out.println(y);
+			
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

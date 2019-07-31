@@ -1,0 +1,27 @@
+Vaibhav Sharma
+
+Wap to print first 10 prime numbers
+
+===========================================================
+	public static void main (String [] args)
+	{
+		int i=1,j=1,count=0,c;
+		while(count<10)
+		{
+			j=1;
+			c=0;
+			while(j<=i)
+			{
+				if(i%j==0)
+					c++;
+				j++;
+			}
+			
+			if(c==2)
+			{
+				System.out.println(i);
+				count++;
+			}
+			i++;
+		}
+			}

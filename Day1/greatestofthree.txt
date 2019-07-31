@@ -1,0 +1,27 @@
+vaibhav Sharma
+
+Wap to find greatest of three numbers
+
+
+public class largestofthree {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=5,b=10,c=20;
+		if(a>b && a>c){
+			System.out.println(a+" is largest");
+				}
+		if(b>c && b>a){
+			System.out.println(b+" is largest");
+				}
+		if(c>a && c>b){
+			System.out.println(c+" is largest");
+				
+		}
+
+
+	}
+	}

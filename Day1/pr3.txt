@@ -1,0 +1,22 @@
+Vaibhav Sharma
+
+WAP to to check working of relational operators.
+
+===================================================
+
+
+public class pr3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int c=5, b=10, a=20;
+		System.out.println(a<b);
+
+		System.out.println(b>c);
+	}
+
+}

@@ -1,0 +1,33 @@
+Vaibhav Sharma
+
+Wap to print the following pattern
+
+9  
+77 
+555 
+3333 
+11111
+
+
+
+==========================================
+
+
+public class pattern {
+public static void main (String[] args)
+{
+	int i, j, k;
+	for(i=0;i<5;i++)
+	{
+		for(j=5;j>i;j--)
+		{
+			System.out.println(" ");
+		}
+		System.out.println();
+		for(j=0;j<=i;j++)
+		{
+			System.out.print(9 - 2*i);
+		}
+	}
+}
+}
