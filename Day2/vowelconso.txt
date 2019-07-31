@@ -1,0 +1,29 @@
+/*
+Vaibhav Sharma
+
+WAP to find Vowel or consonant 
+====================================================
+*/
+
+
+import java.util.Scanner;
+
+
+public class vowelconso {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char n= 'a';
+		if(n=='a'||n=='e'||n=='i'||n=='o'||n=='u')
+			System.out.println("vowel");
+		else if(n=='A'||n=='E'||n=='I'||n=='O'||n=='U')
+			System.out.println("vowel");
+		else
+			System.out.println("Consonant");
+
+	}
+
+}

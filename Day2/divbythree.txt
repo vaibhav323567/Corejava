@@ -1,0 +1,24 @@
+Vaibhav Sharma
+
+WAP to find Sum of numbers between 10 and 30 divisible by 3 .
+==================================================================== 
+
+public class divbythree {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+
+		int i, sum=0;
+		for(i=12;i<=30;i+=3)
+		{
+			sum=sum+i;
+		}
+		System.out.println("Sum of numbers between 10 and 30 divisible by 3 is "+sum);
+		
+	}
+
+}

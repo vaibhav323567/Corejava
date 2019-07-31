@@ -1,0 +1,25 @@
+/*
+Vaibhav Sharma
+
+WAP to find largest using Operators
+====================================================
+*/
+
+
+public class pr4 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+
+		int a=5,b=10,c=20;
+		System.out.println((a<b)&& (a>c));
+
+		System.out.println((a<b) || (a>c));
+		
+	}
+
+}

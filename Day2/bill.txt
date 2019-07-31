@@ -1,0 +1,48 @@
+
+Vaibhav Sharma
+
+Wap to calculate the electricity bill.
+========================================================
+
+
+public class bill {
+
+	public static void main (String[] args)
+	{
+		double bill=175;
+		double sum=0;
+		
+		if(bill<=100)
+		{
+			sum=sum+bill*1.5;
+		}
+		else if(bill>100 && bill<=200)
+		{
+			sum=sum + (bill-100)*1.5;
+			bill=bill-100;
+			sum=sum+ bill*2;
+		}
+		else if(bill>200 && bill<=250)
+		{
+			sum=sum + (bill-100)*1.5;
+			bill=bill-100;
+			sum=sum+ bill*2;
+			bill=bill-50;
+			sum=sum+ bill*2.5;
+		}
+		else 
+		{
+			
+			sum=sum + (bill-100)*1.5;
+			bill=bill-100;
+			sum=sum+ bill*2;
+			bill=bill-50;
+			sum=sum+ bill*2.5;
+			bill=bill-50;
+			sum=sum+bill*4;
+			
+		}
+		System.out.println(sum);
+	}
+	
+}

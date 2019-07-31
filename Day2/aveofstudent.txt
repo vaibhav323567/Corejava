@@ -1,0 +1,60 @@
+Vaibhav Sharma
+
+WAP to find the average of four subjects of three students and print the highest of them.
+==============================================================================================
+
+
+
+
+import java.util.Scanner;
+
+
+public class aveofstudent {
+
+	public static void main(String[] args){
+		
+		 Scanner input =new Scanner(System.in);
+		
+		//int a1,a2,a3,a4;
+		//int b1,b2,b3,b4;
+		//int c1,c2,c3,c4;
+		
+		System.out.println("Enter marks of student1 ");
+		int a1= input.nextInt();
+		int a2= input.nextInt();
+		int a3= input.nextInt();
+		int a4= input.nextInt();
+		int av1= (a1+a2+a3+a4)/4;
+		System.out.println("Average of student1 is "+av1);
+		
+		
+		System.out.println("Enter marks of student2 ");
+		int b1= input.nextInt();
+		int b2= input.nextInt();
+		int b3= input.nextInt();
+		int b4= input.nextInt();
+		int av2= (b1+b2+b3+b4)/4;
+		System.out.println("Average of student2 is "+av2);
+		
+		System.out.println("Enter marks of student3 ");
+		int c1= input.nextInt();
+		int c2= input.nextInt();
+		int c3= input.nextInt();
+		int c4= input.nextInt();
+		int av3= (c1+c2+c3+c4)/4;
+		System.out.println("Average of student3 is "+av3);
+		
+		if((av1>av2) && (av1>av3))
+		{
+			System.out.println("Student1 has highest average "+av1);
+		}
+		if((av2>av1) && (av2>av3))
+		{
+			System.out.println("Student2 has highest average "+av2);
+		}
+		if((av3>av2) && (av3>av1))
+		{
+			System.out.println("Student3 has highest average "+av3);
+		}
+	}
+}
